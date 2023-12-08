@@ -1,0 +1,54 @@
+:root {
+  --primary: #9B2226;
+  --secondary: #AE2012;
+  --tertiary: #BB3E03;
+  --quaternary: #CA6702;
+  --quinary: #EE9B00;
+  --senary: #E9D8A6;
+  --septenary: #94D2BD;
+  --octonary: #0A9396;
+  --nonary: #005F73;
+  --denary: #001219;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body {
+  /* background: var(--senary); */
+  background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  /* background-position: center; */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduction {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
