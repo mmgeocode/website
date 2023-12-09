@@ -1,10 +1,21 @@
 function Learning(props) {
   return (
     <>
-    <h1>Hello from Learning</h1>
-    <div className="coding-games">Coding Games</div>
-    <div className="references">References</div>
-    <div className="videos">Reference Videos</div>
+    <div className="container">
+      {/* <h1>Mike's Learning Resources</h1> */}
+      <div className="title">Mike's Learning Resources</div>
+
+      <div className="item">
+        <h3>Coding Games</h3>
+        <label>CSS Diner</label>
+        <iframe className="embedgames" title="css-diner" src="https://flukeout.github.io/" />
+        <label>Learn Git Branching</label>
+        <iframe className="embedgames" title="git-branching" src="https://learngitbranching.js.org/?locale=en_US" />
+      </div>
+
+      <div className="item">Reference Links</div>
+      <div className="item">Reference Videos</div>
+    </div>
     </>
   );
 }
