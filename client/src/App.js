@@ -12,8 +12,8 @@ import Projects from './components/main-section/Projects';
 function App() {
   return (
     <div>
-      <MainHeader />
       <NavigationBar />
+      <MainHeader />
       <Routes>
         <Route path='/' element={<MainIndex/>}></Route>
         <Route path='/about' element={<About/>}></Route>

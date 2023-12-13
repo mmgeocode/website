@@ -1,9 +1,15 @@
 function Projects(props) {
   return (
     <>
+      <div className="container">
+        
         <h1>Hello from Projects</h1>
-        <div className="current-projects">Under Development</div>
-        <div className="past-projects">Previous Projects</div>
+
+        <div className="item">Under Development</div>
+
+        <div className="item">Previous Projects</div>
+
+      </div>
     </>
   );
 }
