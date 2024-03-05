@@ -7,6 +7,7 @@ function About(props) {
 
         <div className="item">
           <h1>About Me</h1>
+          <h2>Software Developer + Geoscientist</h2>
           <p>I'm a geoscientist living in Colorado with a passion for technology, learning, and the great outdoors. I've been in the energy industry for over 14 years and have a diverse range of experiences in exploration, development, and operations. Recently, I completed a twelve week software development bootcamp and am looking to combine my new skillsets into a career in technology.</p>
           <p>My favorite hobbies include pinball, hiking, skiing, camping, board games, and painting. I also enjoy attending sporting events and traveling to new areas.</p>
         </div>
@@ -25,6 +26,7 @@ function About(props) {
 
             <div className="skill-description">
               <p>React experience....</p>
+              <p>This website is built using React. In addition, RentCraft and JiM Chat are also built using React library</p>
             </div>
 
           </section>
@@ -82,7 +84,7 @@ function About(props) {
         {/* EXPERIENCE ----------------------------------------- */}
 
         <div className="item">
-          <h2>Professional Experience</h2>
+          <h2>Complete Professional Experience</h2>
           <h5>You can also see my professional experience on LinkedIn</h5>
           <section className="work-item">
             <div className="work-details">
@@ -104,7 +106,9 @@ function About(props) {
               <p>Managed and divested a Geologic consulting company that provided services for the energy industry, pinball operating, and online mineral sales.</p>
               <p>Key contributions:</p>
               <ul>
-                <li>Testing</li>
+                <li>Provided consultation for two companies in the Yeso Group of New Mexico that led to acquisitions and development in the Paddock and Blinebry Formations</li>
+                <li>Constructed migmatiteminerals.com and filmed live sale shows to sell minerals at an average rate-of-return of approimately %110</li>
+                <li>Successfully divested mineral company and sold complete inventory</li>
               </ul>
             </div>
           </section>
@@ -115,10 +119,13 @@ function About(props) {
               <p>June 2019 - September 2019</p>
             </div>
             <div className="work-summary">
-              <p>SUMMARY.</p>
+              <p>Project lead for team of seven geoscientists to build three-dimensional geologic model of the Delaware Basin.</p>
               <p>Key contributions:</p>
               <ul>
-                <li>Testing</li>
+                <li>Created three-dimensional model between two states with geophysical and petrophysical integration.</li>
+                <li>Evaluated acreage, new ventures exportation, non-operated proposals, and high grade areas for lease sales using model.</li>
+                <li>Mentored four geologists in the career development program.</li>
+                <li>Testified as an expert witness for Apache's protest as the New Mexico Oil Conservation Division.</li>
               </ul>
             </div>
           </section>
@@ -129,10 +136,14 @@ function About(props) {
               <p>June 2016 - May 2019</p>
             </div>
             <div className="work-summary">
-              <p>SUMMARY.</p>
+              <p>Lead geologist for Apache's acreage in the New Mexico Delaware Basin. Evaluated the Brushy Canyon, Avalon, Bone Spring, and Wolfcamp Formations.</p>
               <p>Key contributions:</p>
               <ul>
-                <li>Testing</li>
+                <li>Generated 35 horizontal prospects in the Delaware Basin by integrating subsurface evaluation, seismic, and engineering analysis</li>
+                <li>Developed four acreage positions that have produced approximately 9 MMBO to date</li>
+                <li>Evaluated offset Bone Spring well data to classify optimal target zones which lead to approximately 78 MBO, a 62%, increase per well production increase when compared with adjacent wells.</li>
+                <li>Provided geologic recommendation on more than thirty acreage trades and non-operated proposals.</li>
+                <li>Testified several times as an expert witness at the New Mexico Oil Conservation Division.</li>
               </ul>
             </div>
           </section>
@@ -143,10 +154,13 @@ function About(props) {
               <p>June 2014 - May 2016</p>
             </div>
             <div className="work-summary">
-              <p>SUMMARY.</p>
+              <p>Created new stratigraphic framework for the Yeso Group across Apache acreage on the Northwest Shelf. Built three-dimensional geomodel in Petrel and integrated data with geophysical and petrophysical analysis.</p>
               <p>Key contributions:</p>
               <ul>
-                <li>Testing</li>
+                <li>Created new statigraphic framework that increased production approximately 73%, or 67 MBO, per well and allowed faster drill times that helped generate an average rate-of-return greater than %110</li>
+                <li>Generated eight prospects in the Yeso Group that lead to drilling of over 50 vertical, directional, and horizontal wells that have produced over 9 MMBO to date</li>
+                <li>Presented technical work to company executives, management, and technical teams</li>
+                <li>Mentored two junior geologists and supervised summer intern exploration project for a Wolfcamp/Abo prospect</li>
               </ul>
             </div>
           </section>
@@ -157,10 +171,13 @@ function About(props) {
               <p>June 2012 - May 2014</p>
             </div>
             <div className="work-summary">
-              <p>SUMMARY.</p>
+              <p>New Ventures Geologist that oversaw operations and development of the Jayhawk Prospect in Daniels County, Montana targeting the Bakken and Three Forks Formation.</p>
               <p>Key contributions:</p>
               <ul>
-                <li>Testing</li>
+                <li>Planned and geosteered horizontal exploration wells and pilot hole in the Bakken and Three Forks Formation</li>
+                <li>Collaborated with engineering team to develop divestiture package and presented results to numerous investors</li>
+                <li>Evaluated shallow brine water formations in Schleicher County, Texas for use in Permian Region horizontal well completions</li>
+                <li>Performed shallow sink-hole hazard analysis over Cedar Lake Field in New Mexico that resulted in preserving more than 50 well locations</li>
               </ul>
             </div>
           </section>
@@ -171,10 +188,12 @@ function About(props) {
               <p>August 2010 - June 2012</p>
             </div>
             <div className="work-summary">
-              <p>SUMMARY.</p>
+              <p>Wellsite and geosteering geologist in the Arkoma Basin for Southwestern's Fayetteville Shale Development</p>
               <p>Key contributions:</p>
               <ul>
-                <li>Testing</li>
+                <li>Planned, geosteered, and created end-of-well reports for over 150 horizontal wells in the Fayetteville Shale</li>
+                <li>Integrated with geophysics, petrophysicists, and engineering teams to evaluate spacing, completions design, and up-dip versus down-dip performance</li>
+                <li>Generated geologic prognosis, horizontal well paths, active geosteering reports during drilling, and quality checked colleagues' reports</li>
               </ul>
             </div>
           </section>
