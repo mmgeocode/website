@@ -7,7 +7,7 @@ function About(props) {
 
         <div className="item">
           <h1>About Me</h1>
-          <h2>Software Developer + Geoscientist</h2>
+          <h2>Software Developer | Geoscientist</h2>
           <p>I'm a geoscientist living in Colorado with a passion for technology, learning, and the great outdoors. I've been in the energy industry for over 14 years and have a diverse range of experiences in exploration, development, and operations. Recently, I completed a twelve week software development bootcamp and am looking to combine my new skillsets into a career in technology.</p>
           <p>My favorite hobbies include pinball, hiking, skiing, camping, board games, and painting. I also enjoy attending sporting events and traveling to new areas.</p>
         </div>
@@ -22,11 +22,13 @@ function About(props) {
 
             <div className="skill">
               <h3>React</h3>
+              <img src="../assets/react-icon.png" alt="" />
             </div>
 
             <div className="skill-description">
-              <p>React experience....</p>
-              <p>This website is built using React. In addition, RentCraft and JiM Chat are also built using React library</p>
+              <p>This website is built using React library.</p>
+              <li>RentCraft</li>
+              <li>JiM Chat</li>
             </div>
 
           </section>
@@ -38,7 +40,7 @@ function About(props) {
             </div>
 
             <div className="skill-description">
-              <p>MongoDB experience...</p>
+              <p>Online cluster used for RentCraft</p>
             </div>
             
           </section>

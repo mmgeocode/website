@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  background-color: floralwhite;
+  /* background-color: floralwhite; */
   width: 70%;
   height: 90vh;
   margin-left: 15%;
@@ -46,7 +46,8 @@ body {
 .item {
   display: flex;
   flex-direction: column;
-  background-color: var(--septenary);
+  background-color: floralwhite;
+  opacity: 90%;
   padding: 1em;
   margin-top: 1em;
   border-radius: 10px;

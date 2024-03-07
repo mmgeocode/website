@@ -3,7 +3,7 @@ function Projects(props) {
     <>
       <div className="container">
         
-        <h1>Hello from Projects</h1>
+        <h1>UNDER CONSTRUCTION</h1>
 
         <div className="item">Under Development</div>
 

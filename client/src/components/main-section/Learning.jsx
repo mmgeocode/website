@@ -5,6 +5,8 @@ function Learning(props) {
       {/* <h1>Mike's Learning Resources</h1> */}
       <div className="title">Mike's Learning Resources</div>
 
+      <div>UNDER CONSTRUCTION</div>
+
       <div className="item">
         <h3>Coding Games</h3>
         <label>CSS Diner</label>
