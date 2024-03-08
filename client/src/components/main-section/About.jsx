@@ -1,3 +1,5 @@
+import reactLogo from '../assets/react-icon.png'
+
 function About(props) {
   return (
     <>
@@ -22,11 +24,11 @@ function About(props) {
 
             <div className="skill">
               <h3>React</h3>
-              <img src="../assets/react-icon.png" alt="" />
+              <img src={reactLogo} alt="" />
             </div>
 
             <div className="skill-description">
-              <p>This website is built using React library.</p>
+              <li>This website is built using React library.</li>
               <li>RentCraft</li>
               <li>JiM Chat</li>
             </div>

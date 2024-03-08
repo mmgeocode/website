@@ -14,7 +14,7 @@
 
 /* GLOBAL STYLES ------------------------------- */
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 html, body {
@@ -109,3 +109,6 @@ footer {
   width: 100%;
   margin-bottom: 0;
 }
+
+/* ABOUT ------------------------- */
+

@@ -13,7 +13,7 @@ function MainIndex(props) {
 
                 <p>Select ABOUT in the navigation bar to see contact information, my LinkedIn profile, my GitHub account, my professional experience, or some more information about me.</p>
 
-                <p>Choose LEARNING to visit coding games, useful web docs, or other fascinating things I've seen during my lifetime.</p>
+                <p>Choose LEARNING to visit coding games, useful web docs, or other resources.</p>
 
                 <p>Visit PROJECTS to see some of my completed professional, school, or side projects.</p>
             </div>
