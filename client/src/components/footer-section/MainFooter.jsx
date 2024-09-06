@@ -10,7 +10,7 @@ function MainFooter(props) {
           <div style={{ background: "var(--octonary)", height: "5px"}}></div>
           <h6 style={{ background: "var(--nonary)", height: "30px", padding: "0", marginBottom: "0"}}>2023 | Created by Mike Muncy</h6>
 
-          <img src={emailIcon} alt="" />
+          {/* <img src={emailIcon} alt="" /> */}
 
         </footer>
     </>

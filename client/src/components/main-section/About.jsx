@@ -9,12 +9,12 @@ function About(props) {
 
         <div className="item">
           <h1>About Me</h1>
-          <h2>Software Developer | Geoscientist</h2>
-          <p>I'm a geoscientist living in Colorado with a passion for technology, learning, and the great outdoors. I've been in the energy industry for over 14 years and have a diverse range of experiences in exploration, development, and operations. Recently, I completed a twelve week software development bootcamp and am looking to combine my new skillsets into a career in technology.</p>
+          <h2>Information Security | Software Developer | Geoscientist</h2>
+          <p>I'm a geoscientist living in Colorado with interests in technology, geology, learning new skills, and the great outdoors. I've been in the energy industry for over 15 years and have a diverse range of experiences in exploration, development, and operations. In 2023, I completed a twelve week software development bootcamp to improve skillsets and learn programming. To continue learning and prove my technology capabilities, I obtained a certification in Security+ from CompTIA.</p>
           <p>My favorite hobbies include pinball, hiking, skiing, camping, board games, and painting. I also enjoy attending sporting events and traveling to new areas.</p>
         </div>
 
-        {/* SKILLSETS---------------------------------------------- */}
+        {/* SKILLSETS------------------------------------- */}
 
         <div className="item">
 
@@ -24,68 +24,68 @@ function About(props) {
 
             <div className="skill">
               <h3>React</h3>
-              <img src={reactLogo} alt="" />
-            </div>
+              {/* <img src={reactLogo} alt="" /> */}
 
-            <div className="skill-description">
-              <li>This website is built using React library.</li>
-              <li>RentCraft</li>
-              <li>JiM Chat</li>
-            </div>
+              <div className="skill-description">
+                <li>This website is built using React library.</li>
+                <li>RentCraft</li>
+                <li>JiM Chat</li>
+              </div>
 
+            </div>
           </section>
 
           <section className="skill-item">
 
             <div className="skill">
               <h3>MongoDB</h3>
-            </div>
 
-            <div className="skill-description">
-              <p>Online cluster used for RentCraft</p>
-            </div>
+              <div className="skill-description">
+                <p>Online cluster used for RentCraft</p>
+              </div>
             
+            </div>
           </section>
 
           <section className="skill-item">
 
             <div className="skill">
               <h3>Postman</h3>
-            </div>
 
-            <div className="skill-description">
-              <p>Postman experience....</p>
-            </div>
+              <div className="skill-description">
+                <p>Postman experience....</p>
+              </div>
             
+            </div>
           </section>
 
           <section className="skill-item">
 
             <div className="skill">
               <h3>Node.js</h3>
-            </div>
 
-            <div className="skill-description">
-              <p>Node.js experience...</p>
-            </div>
+              <div className="skill-description">
+                <p>Node.js experience...</p>
+              </div>
             
+            </div>
           </section>
 
           <section className="skill-item">
 
             <div className="skill">
               <h3>HTML, CSS, and JavaScript</h3>
-            </div>
 
-            <div className="skill-description">
-              <p>JavaScript experience...</p>
-            </div>
+              <div className="skill-description">
+                <p>JavaScript experience...</p>
+              </div>
             
+            </div>
           </section>
 
         </div>
 
-        {/* EXPERIENCE ----------------------------------------- */}
+        {/* EXPERIENCE----------------------------------- */}
 
         <div className="item">
           <h2>Complete Professional Experience</h2>
@@ -97,7 +97,14 @@ function About(props) {
               <p>August 2023 - Present</p>
             </div>
             <div className="work-summary">
-              <p>Teaching and mentoring elementary, secondary, and university students. Subjects taught include earth science, chemistry, biology, math, english, writting, and reading.</p>
+              <p>Teaching and mentoring elementary through university students. Subjects taught include earth science, chemistry, biology, math, english, writting, and reading.</p>
+              <p>Key Contributions:</p>
+              <ul>
+                <li>Manage and create appointments with students and legal guardians</li>
+                <li>Access students strength and weaknesses to design instruction program</li>
+                <li>Assist with homework, studying for exams,and reviewing key fundamentals in subject field</li>
+                <li>Students improved overall grade score and maintained clients bewteen grades</li>
+              </ul>
             </div>
           </section>
           <section className="work-item">
@@ -190,15 +197,17 @@ function About(props) {
               <h3>Operations Geologist</h3>
               <p>Southwestern Energy</p>
               <p>August 2010 - June 2012</p>
-            </div>
-            <div className="work-summary">
-              <p>Wellsite and geosteering geologist in the Arkoma Basin for Southwestern's Fayetteville Shale Development</p>
-              <p>Key contributions:</p>
-              <ul>
-                <li>Planned, geosteered, and created end-of-well reports for over 150 horizontal wells in the Fayetteville Shale</li>
-                <li>Integrated with geophysics, petrophysicists, and engineering teams to evaluate spacing, completions design, and up-dip versus down-dip performance</li>
-                <li>Generated geologic prognosis, horizontal well paths, active geosteering reports during drilling, and quality checked colleagues' reports</li>
-              </ul>
+              
+              <div className="work-summary">
+                <p>Wellsite and geosteering geologist in the Arkoma Basin for Southwestern's Fayetteville Shale Development</p>
+                <p>Key contributions:</p>
+                <ul>
+                  <li>Planned, geosteered, and created end-of-well reports for over 150 horizontal wells in the Fayetteville Shale</li>
+                  <li>Integrated with geophysics, petrophysicists, and engineering teams to evaluate spacing, completions design, and up-dip versus down-dip performance</li>
+                  <li>Generated geologic prognosis, horizontal well paths, active geosteering reports during drilling, and quality checked colleagues' reports</li>
+                </ul>
+              </div>
+
             </div>
           </section>
         </div>
@@ -207,11 +216,17 @@ function About(props) {
 
         <div className="item">
 
-          <h2>Education</h2>
+          <h2>Education & Certifications</h2>
+
+          <section className="education-item">
+            <h3>CompTIA Security+ CE Certification</h3>
+            <p>Candidate ID: COMP001022545975</p>
+            <p>Certification Date: July 08, 2024</p>
+          </section>
 
           <section className="education-item">
             <h3>Front Range Community College</h3>
-            <p>Software Development Bootcamp, 2023</p>
+            <p>Software Development Certificate, 2023</p>
             <p>12 week full-time program covering HTML, CSS, JavaScript, MongoDB, Postman, and React.</p>
           </section>
 
@@ -224,46 +239,9 @@ function About(props) {
           <section className="education-item">
             <h3>Texas Tech University</h3>
             <p>Bachelors of Science, 2003 - 2007</p>
-            <p>Geosciences with a minor in Geophysics</p>
+            <p>Geosciences Major with a Minor in Geophysics</p>
           </section>
 
-        </div>
-
-        {/* PINBALL ---------------------------------------------- */}
-
-        <div className="item">
-
-          <h2>Current Pinball Lineup:</h2>
-
-          <section className="pinball">
-
-            <div className="pinball-details">
-              Sure Shot
-            </div>
-
-            <div className="pinball-details">
-              Sound Stage
-            </div>
-
-            <div className="pinball-details">
-              Title Fight
-            </div>
-
-            <div className="pinball-details">
-              Black Rose
-            </div>
-
-            <div className="pinball-details">
-              Cactus Canyon
-            </div>
-
-          </section>
-          
-          Star Trek
-          Iron Maiden
-          The Munsters
-          Jurassic Park
-          Teenage Mutant Ninja Turtles
         </div>
 
       </div>
