@@ -64,24 +64,31 @@ h3 {
 
 } */
 
+/* HOME --------------------------------- */
 .container {
   /* background-color: floralwhite; */
-  width: 70%;
-  height: 90vh;
-  margin-left: 15%;
+  /* width: 70%; */
+  /* height: 90vh; */
+  /* margin-left: 15%; */
   display: flex;
   flex-direction: column;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   background-color: floralwhite;
   opacity: 90%;
-  padding: 1em;
+  padding: 30px;
   margin-top: 1em;
   border-radius: 10px;
+
+}@media screen and (max-width: 650px){
+  .item {
+    padding: 20px;
+  }
 }
+
 
 .title {
   display: flex;
@@ -115,30 +122,55 @@ main {
   flex: 1 0 auto;
 }
 
+/* ABOUT: SKILLS --------------- */
 .skill-item {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  column-gap: 20px;
+  /* display: grid; */
+  /* grid-template-columns: 300px 1fr; */
+  /* column-gap: 20px; */
+  margin: 30px 0;
 }
 
+/* ABOUT: WORK EXPERIENCE ------ */
 .work-item {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  column-gap: 20px;
+  margin: 30px 0;
 }
 
+.work-details p {
+  margin: 0;
+}
+
+@media screen and (min-width: 860px) {
+  .work-item {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+  }
+
+  .work-summary p:first-child {
+    margin-top: 0;
+  }
+}
+
+/* ABOUT: EDUCATION ------------------- */
+.education-item {
+  margin: 30px 0;
+}
+
+.education-item p {
+  margin: 0;
+}
+
+/* ! DELETE? */
 .pinball {
   display: grid;
   grid-template-columns: 300px 1fr;
   column-gap: 20px;
 }
 
+/* FOOTER ------------------------ */
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   margin-bottom: 0;
 }
-
-/* ABOUT ------------------------- */
-

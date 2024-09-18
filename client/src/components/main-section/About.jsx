@@ -18,7 +18,7 @@ function About(props) {
 
         <div className="item">
 
-          <h2>Skills & Projects</h2>
+          <h2>Skills & Technologies</h2>
 
           <section className="skill-item">
 
@@ -197,17 +197,15 @@ function About(props) {
               <h3>Operations Geologist</h3>
               <p>Southwestern Energy</p>
               <p>August 2010 - June 2012</p>
-              
-              <div className="work-summary">
-                <p>Wellsite and geosteering geologist in the Arkoma Basin for Southwestern's Fayetteville Shale Development</p>
-                <p>Key contributions:</p>
-                <ul>
-                  <li>Planned, geosteered, and created end-of-well reports for over 150 horizontal wells in the Fayetteville Shale</li>
-                  <li>Integrated with geophysics, petrophysicists, and engineering teams to evaluate spacing, completions design, and up-dip versus down-dip performance</li>
-                  <li>Generated geologic prognosis, horizontal well paths, active geosteering reports during drilling, and quality checked colleagues' reports</li>
-                </ul>
-              </div>
-
+            </div>
+            <div className="work-summary">
+              <p>Wellsite and geosteering geologist in the Arkoma Basin for Southwestern's Fayetteville Shale Development</p>
+              <p>Key contributions:</p>
+              <ul>
+                <li>Planned, geosteered, and created end-of-well reports for over 150 horizontal wells in the Fayetteville Shale</li>
+                <li>Integrated with geophysics, petrophysicists, and engineering teams to evaluate spacing, completions design, and up-dip versus down-dip performance</li>
+                <li>Generated geologic prognosis, horizontal well paths, active geosteering reports during drilling, and quality checked colleagues' reports</li>
+              </ul>
             </div>
           </section>
         </div>
