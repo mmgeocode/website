@@ -16,7 +16,7 @@
 /* GLOBAL STYLES ------------------------------- */
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 *, *::before, *::after {
@@ -173,4 +173,32 @@ footer {
   bottom: 0;
   width: 100%;
   margin-bottom: 0;
+}
+
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.socials img:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 860px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  footer {
+    text-align: center;
+    /* padding: 10px; */
+  }
 }
