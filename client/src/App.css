@@ -60,9 +60,14 @@ h3 {
 }
 
 /* Links ------------------- */
-/* a {
+a {
+  color: var(--tertiary)
+}
 
-} */
+a:hover {
+  color: var(--denary);
+  text-decoration: none;
+}
 
 /* HOME --------------------------------- */
 .container {
@@ -120,6 +125,17 @@ main {
   flex-basis: auto;
 
   flex: 1 0 auto;
+}
+/* ABOUT: TECH --------------------------- */
+.tech-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tech-item {
+  align-items: center;
 }
 
 /* ABOUT: SKILLS --------------- */

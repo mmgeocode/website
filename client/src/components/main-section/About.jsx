@@ -1,4 +1,10 @@
+import htmlLogo from '../assets/html-icon.png'
+import cssLogo from '../assets/css-icon.png'
+import jsLogo from '../assets/js-icon.png'
+import mongoLogo from '../assets/mongodb-icon.png'
+import expressLogo from '../assets/express-icon.png'
 import reactLogo from '../assets/react-icon.png'
+import nodeLogo from '../assets/node-icon.png'
 
 function About(props) {
   return (
@@ -10,13 +16,64 @@ function About(props) {
         <div className="item">
           <h1>About Me</h1>
           <h2>Information Security | Software Developer | Geoscientist</h2>
-          <p>I'm a geoscientist living in Colorado with interests in technology, geology, learning new skills, and the great outdoors. I've been in the energy industry for over 15 years and have a diverse range of experiences in exploration, development, and operations. In 2023, I completed a twelve week software development bootcamp to improve skillsets and learn programming. To continue learning and prove my technology capabilities, I obtained a certification in Security+ from CompTIA.</p>
-          <p>My favorite hobbies include pinball, hiking, skiing, camping, board games, and painting. I also enjoy attending sporting events and traveling to new areas.</p>
+          <p>I'm a geoscientist living in Colorado with interests in technology, learning new skills, and the great outdoors. I've been in the energy industry for over 15 years and have a diverse range of experiences in exploration, development, and operations. In 2023, I completed a twelve week software development bootcamp to improve skillsets and learn programming. To continue learning and prove my technology capabilities, I obtained a certification in Security+ from CompTIA. My ultimate goal is to use these new skills in making a career pivot into technology.</p>
+          <p>My favorite hobbies include pinball, hiking, skiing, camping, board games, sailing my single-person trimaran, and painting. Future plans include a blog section of this website to write about some of these hobbies.</p>
         </div>
 
         {/* SKILLSETS------------------------------------- */}
 
         <div className="item">
+
+          <h2>DEVELOPER TECHNOLOGIES:</h2>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={htmlLogo} alt="HTML logo" />
+              <h3>HTML</h3>
+            </div>
+          </section>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={cssLogo} alt="CSS logo" />
+              <h3>CSS</h3>
+            </div>
+          </section>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={jsLogo} alt="JavaScript logo" />
+              <h3>JavaScript</h3>
+            </div>
+          </section>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={mongoLogo} alt="MongoDB logo" />
+              <h3>MongoDB</h3>
+            </div>
+          </section>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={expressLogo} alt="express logo" />
+              <h3>Express</h3>
+            </div>
+          </section>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={reactLogo} alt="React logo" />
+              <h3>React</h3>
+            </div>
+          </section>
+
+          <section className="tech-container">
+            <div className="tech-item">
+              <img src={nodeLogo} alt="node logo" />
+              <h3>Node</h3>
+            </div>
+          </section>
 
           <h2>Skills & Technologies</h2>
 
