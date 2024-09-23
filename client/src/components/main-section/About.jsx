@@ -13,7 +13,7 @@ function About(props) {
 
         {/* ABOUT ------------------------------------------------ */}
 
-        <div className="item">
+        <div className="item" id="about">
           <h1>About Me</h1>
           <h2>Information Security | Software Developer | Geoscientist</h2>
           <p>I'm a geoscientist living in Colorado with interests in technology, learning new skills, and the great outdoors. I've been in the energy industry for over 15 years and have a diverse range of experiences in exploration, development, and operations. In 2023, I completed a twelve week software development bootcamp to improve skillsets and learn programming. To continue learning and prove my technology capabilities, I obtained a certification in Security+ from CompTIA. My ultimate goal is to use these new skills in making a career pivot into technology.</p>
@@ -22,7 +22,7 @@ function About(props) {
 
         {/* SKILLSETS------------------------------------- */}
 
-        <div className="item">
+        <div className="item" id="tech">
 
           <h2>DEVELOPER TECHNOLOGIES:</h2>
 
@@ -31,120 +31,87 @@ function About(props) {
               <img src={htmlLogo} alt="HTML logo" />
               <h3>HTML</h3>
             </div>
-          </section>
 
-          <section className="tech-container">
             <div className="tech-item">
               <img src={cssLogo} alt="CSS logo" />
               <h3>CSS</h3>
             </div>
-          </section>
 
-          <section className="tech-container">
             <div className="tech-item">
               <img src={jsLogo} alt="JavaScript logo" />
               <h3>JavaScript</h3>
             </div>
-          </section>
 
-          <section className="tech-container">
             <div className="tech-item">
               <img src={mongoLogo} alt="MongoDB logo" />
               <h3>MongoDB</h3>
             </div>
-          </section>
 
-          <section className="tech-container">
             <div className="tech-item">
               <img src={expressLogo} alt="express logo" />
               <h3>Express</h3>
             </div>
-          </section>
 
-          <section className="tech-container">
             <div className="tech-item">
               <img src={reactLogo} alt="React logo" />
               <h3>React</h3>
             </div>
-          </section>
 
-          <section className="tech-container">
             <div className="tech-item">
               <img src={nodeLogo} alt="node logo" />
               <h3>Node</h3>
             </div>
           </section>
 
-          <h2>Skills & Technologies</h2>
+        </div>
 
-          <section className="skill-item">
+        {/* SKILLS ----------- */}
+        <div className="item" id="skills">
 
-            <div className="skill">
-              <h3>React</h3>
-              {/* <img src={reactLogo} alt="" /> */}
+          <h2>INFORMATION TECHNOLOGY AND SECURITY HARD SKILLS:</h2>
 
-              <div className="skill-description">
-                <li>This website is built using React library.</li>
-                <li>RentCraft</li>
-                <li>JiM Chat</li>
-              </div>
-
-            </div>
+          <section className="hard-skills">
+            <ul>
+              <li>Programming</li>
+              <li>Gap Analysis</li>
+              <li>Penetration Testing</li>
+              <li>Hardening</li>
+              <li>Social Engineering</li>
+              <li>Security Baselines</li>
+              <li>Access Control</li>
+              <li>Cryptography</li>
+              <li>Cyber Forensics</li>
+              <li>Data Security</li>
+              <li>Disaster Recovery Planning</li>
+              <li>Firewall Configuration</li>
+              <li>Network Security</li>
+              <li>Malware Identification</li>
+              <li>Mobile Device Security</li>
+              <li>Security Configuration</li>
+              <li>Security Policies</li>
+              <li>Threat Analysis</li>
+              <li>Threat Detection</li>
+            </ul>
           </section>
 
-          <section className="skill-item">
+          <h2>SOFT SKILLS:</h2>
 
-            <div className="skill">
-              <h3>MongoDB</h3>
-
-              <div className="skill-description">
-                <p>Online cluster used for RentCraft</p>
-              </div>
-            
-            </div>
+          <section className="soft-skills">
+            <ul>
+              <li>Communication</li>
+              <li>Collaboration</li>
+              <li>Leadership</li>
+              <li>Time Management</li>
+              <li>Video Conferencing</li>
+              <li>Design Thinking</li>
+              <li>Agile Management</li>
+            </ul>
           </section>
-
-          <section className="skill-item">
-
-            <div className="skill">
-              <h3>Postman</h3>
-
-              <div className="skill-description">
-                <p>Postman experience....</p>
-              </div>
-            
-            </div>
-          </section>
-
-          <section className="skill-item">
-
-            <div className="skill">
-              <h3>Node.js</h3>
-
-              <div className="skill-description">
-                <p>Node.js experience...</p>
-              </div>
-            
-            </div>
-          </section>
-
-          <section className="skill-item">
-
-            <div className="skill">
-              <h3>HTML, CSS, and JavaScript</h3>
-
-              <div className="skill-description">
-                <p>JavaScript experience...</p>
-              </div>
-            
-            </div>
-          </section>
-
         </div>
 
         {/* EXPERIENCE----------------------------------- */}
 
-        <div className="item">
+        <div className="item" id="resume">
           <h2>Complete Professional Experience</h2>
           <h5>You can also see my professional experience on LinkedIn</h5>
           <section className="work-item">
@@ -269,7 +236,7 @@ function About(props) {
 
         {/* EDUCATION------------------------------------------- */}
 
-        <div className="item">
+        <div className="item" id="education">
 
           <h2>Education & Certifications</h2>
 
