@@ -15,8 +15,8 @@ function About(props) {
 
         <div className="item" id="about">
           <h1>About Me</h1>
-          <h2>Information Security | Software Developer | Geoscientist</h2>
-          <p>I'm a geoscientist living in Colorado with interests in technology, learning new skills, and the great outdoors. I've been in the energy industry for over 15 years and have a diverse range of experiences in exploration, development, and operations. In 2023, I completed a twelve week software development bootcamp to improve skillsets and learn programming. To continue learning and prove my technology capabilities, I obtained a certification in Security+ from CompTIA. My ultimate goal is to use these new skills in making a career pivot into technology.</p>
+          <h2>Information Security | Software Developer | Geoscientist | Educator</h2>
+          <p>I'm a geoscientist living in Colorado with interests for technology, learning new skills, and the great outdoors. I've been in the energy industry for over 15 years with a diverse range of experience in exploration, development, and operations. In 2023, I completed a twelve week software development bootcamp to improve skillsets and learn programming. To continue learning and prove my technology capabilities, I obtained a certification in Security+ from CompTIA. My ultimate goal is to use these new skills in making a career pivot into technology.</p>
           <p>My favorite hobbies include pinball, hiking, skiing, camping, board games, sailing my single-person trimaran, and painting. Future plans include a blog section of this website to write about some of these hobbies.</p>
         </div>
 
@@ -113,7 +113,28 @@ function About(props) {
 
         <div className="item" id="resume">
           <h2>Complete Professional Experience</h2>
-          <h5>You can also see my professional experience on LinkedIn</h5>
+          <h5>You can also see my professional experience on <a href="https://www.linkedin.com/in/mmuncy/">LinkedIn</a></h5>
+
+          <section className="work-item">
+            <div className="work-details">
+              <h3>Title I Guest Teacher</h3>
+              <p>JeffCo Public Schools</p>
+              <p>October 2024 - Present</p>
+            </div>
+            <div className="work-summary">
+              <p>Collaborate with school leaders at North Arvada Middle and Arvada High School to determine weekly coverage respnsibilities.  </p>
+              <p>Key Contributions:</p>
+              <ul>
+                <li>Follow defined lesson plans and provide impromptu coverage</li>
+                <li>Assist students with their coursework and communicate assignment expectations</li>
+                <li>Adapt instructional approach to the individual needs of the students</li>
+                <li>Provide a safe learning environment and deploy proper classroom management strategies</li>
+                <li>Collaboration with additional staff, including social workers, speech language pathologists, etc.</li>
+                <li>Assist with school-wide assessments including CSAP, ACT, and Acuity</li>
+              </ul>
+            </div>
+          </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Tutor</h3>
@@ -131,6 +152,7 @@ function About(props) {
               </ul>
             </div>
           </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Owner</h3>
@@ -147,6 +169,7 @@ function About(props) {
               </ul>
             </div>
           </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Senior Geologist</h3>
@@ -164,6 +187,7 @@ function About(props) {
               </ul>
             </div>
           </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Geologist III</h3>
@@ -182,6 +206,7 @@ function About(props) {
               </ul>
             </div>
           </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Geologist II</h3>
@@ -199,6 +224,7 @@ function About(props) {
               </ul>
             </div>
           </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Geologist I</h3>
@@ -216,6 +242,7 @@ function About(props) {
               </ul>
             </div>
           </section>
+
           <section className="work-item">
             <div className="work-details">
               <h3>Operations Geologist</h3>

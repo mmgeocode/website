@@ -5,7 +5,7 @@ function MainIndex(props) {
 
             <div className="item">
                 <h1>Mike Muncy</h1>
-                <h2>Information Security | Software Developer | Geoscientist</h2>
+                <h2>Geoscientist | Information Security | Software Developer | Educator</h2>
             </div>
 
             <div className="item">
